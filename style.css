@@ -124,6 +124,14 @@ a:hover { text-decoration: underline; }
   font-size: 0.95rem;
 }
 
+.place{
+  margin: 0.15rem 0 0.6rem 0;
+  font-style: italic;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+
 .bullets{
   margin: 0.5rem 0 0 1.1rem;
 }
