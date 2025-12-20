@@ -102,37 +102,36 @@ a:hover { text-decoration: underline; }
 
 .entry-header{
   display: flex;
-  gap: 1rem;
   justify-content: space-between;
   align-items: baseline;
+  gap: 1rem;
 }
 
 .entry-header h3{
   margin: 0;
   font-size: 1.05rem;
+  font-weight: 600;
 }
 
 .date{
   color: var(--muted);
+  font-size: 0.95rem;
   white-space: nowrap;
-  font-size: 0.95rem;
-}
-
-.meta{
-  margin: 0.35rem 0 0 0;
-  color: var(--muted);
-  font-size: 0.95rem;
 }
 
 .place{
-  display: block;
-  margin: 0.15rem 0 0.6rem 0;
+  margin: 0.2rem 0 0.6rem 0;
   font-style: italic;
   color: var(--muted);
   font-size: 0.95rem;
 }
 
 
+.meta{
+  margin: 0.35rem 0 0 0;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
 
 .bullets{
   margin: 0.5rem 0 0 1.1rem;
