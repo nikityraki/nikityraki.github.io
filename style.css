@@ -173,6 +173,11 @@ a:hover { text-decoration: underline; }
     flex-direction: column;
     align-items: flex-start;
   }
+
+  .contact-academic a {
+  font-weight: 600;
+}
+
   .date{ white-space: normal; }
   .grid-2{
     grid-template-columns: 1fr;
