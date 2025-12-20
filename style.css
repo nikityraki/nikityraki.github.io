@@ -1,60 +1,279 @@
-body {
-  font-family: system-ui, -apple-system, sans-serif;
-  margin: 0;
-  padding: 0;
-  line-height: 1.6;
-  color: #222;
-  background: #ffffff;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Niki Tyraki | CV</title>
+  <meta name="description" content="Niki Tyraki – Research MSc student in Cognitive Neuroscience. CV, research experience, skills, and contact." />
+  <link rel="stylesheet" href="style.css" />
+</head>
 
-header {
-  padding: 4rem 2rem;
-  max-width: 900px;
-  margin: auto;
-}
+<body>
+  <header class="site-header">
+    <div class="container">
+      <div class="header-top">
+        <div>
+          <h1 class="name">Niki Tyraki</h1>
+          <p class="role">Research MSc student in Cognitive Neuroscience</p>
+          <p class="tagline">Neuroscientist in progress</p>
+        </div>
 
-h1 {
-  font-size: 2.5rem;
-  margin-bottom: 0.3rem;
-}
+        <div class="contact-card" aria-label="Contact information">
+          <p><span class="muted">📍</span> Nijmegen, Netherlands</p>
+          <p><span class="muted">✉️</span> <a href="mailto:nikitir2000@hotmail.com">nikitir2000@hotmail.com</a></p>
+          <p><span class="muted">✉️</span> <a href="mailto:niki.tyraki@ru.nl">niki.tyraki@ru.nl</a></p>
+          <p><span class="muted">✉️</span> <a href="mailto:n.tyraki@umcutrecht.nl">n.tyraki@umcutrecht.nl</a></p>
+          <p><span class="muted">📞</span> <a href="tel:+306945521815">+30 694 552 1815</a></p>
+          <p><span class="muted">🔗</span> <a href="#" target="_blank" rel="noopener">LinkedIn</a></p>
+        </div>
+      </div>
 
-.subtitle {
-  font-size: 1.1rem;
-  color: #555;
-}
+      <nav class="nav">
+        <a href="#profile">Profile</a>
+        <a href="#education">Education</a>
+        <a href="#research">Research Experience</a>
+        <a href="#teaching">Teaching & Outreach</a>
+        <a href="#posters">Conferences & Posters</a>
+        <a href="#skills">Skills</a>
+        <a href="#awards">Certificates & Awards</a>
+        <a href="#languages">Languages</a>
+        <a href="#hobbies">Hobbies</a>
+        <a href="#references">References</a>
+      </nav>
+    </div>
+  </header>
 
-.tagline {
-  font-size: 1rem;
-  color: #777;
-}
+  <main class="container">
 
-nav {
-  border-top: 1px solid #eee;
-  border-bottom: 1px solid #eee;
-  padding: 1rem;
-  text-align: center;
-}
+    <section id="profile" class="section">
+      <h2>Profile</h2>
+      <p>
+        Curious and driven Research MSc student in Cognitive Neuroscience with a strong background in biological,
+        behavioral, animal and clinical research. Skilled in behavioral experiments, electrophysiology, and data analysis.
+        Adaptable, collaborative, detail-oriented, and committed to advancing interdisciplinary neuroscience through
+        innovative research. In parallel, the Internal PR Manager of an annually organized neuroscience symposium organized
+        by students.
+      </p>
+    </section>
 
-nav a {
-  margin: 0 1rem;
-  text-decoration: none;
-  color: #222;
-  font-weight: 500;
-}
+    <section id="education" class="section">
+      <h2>Education</h2>
 
-section {
-  max-width: 900px;
-  margin: auto;
-  padding: 3rem 2rem;
-}
+      <div class="entry">
+        <div class="entry-header">
+          <h3>Research MSc in Cognitive Neuroscience (Development and Lifelong Plasticity), Radboud University, Netherlands</h3>
+          <span class="date">Sep 2024 – now</span>
+        </div>
+      </div>
 
-h2 {
-  margin-bottom: 1rem;
-}
+      <div class="entry">
+        <div class="entry-header">
+          <h3>BSc in Biology (Biomolecular Sciences & Biotechnology), University of Crete, Greece</h3>
+          <span class="date">Jul 2024</span>
+        </div>
+        <p class="meta">GPA: 7.71/10</p>
+      </div>
+    </section>
 
-footer {
-  text-align: center;
-  padding: 2rem;
-  color: #777;
-  font-size: 0.9rem;
-}
+    <section id="research" class="section">
+      <h2>Research Experience</h2>
+
+      <div class="entry">
+        <div class="entry-header">
+          <h3>MSc Research Internship & Thesis – Neonatology (Jeroen Dudink), Wilhelmina Children’s Hospital (WKZ), Netherlands</h3>
+          <span class="date">Sep 2025 – now</span>
+        </div>
+        <p>Aiming to characterize the emergence and organization of sleep-wake and 24-hour rhythms in very preterm infants.</p>
+      </div>
+
+      <div class="entry">
+        <div class="entry-header">
+          <h3>Lab Rotation – Molecular Psychiatry Lab (Barbara Franke), Radboud University Medical Center, Netherlands</h3>
+          <span class="date">Feb – Mar 2025</span>
+        </div>
+        <p>Explored the genetic architecture of neuropsychiatric disorders with GWAS.</p>
+      </div>
+
+      <div class="entry">
+        <div class="entry-header">
+          <h3>Lab Rotation – Developmental Psychobiology Lab (Carolina de Weerth), Baby and Child Research Center & Donders Institute, Netherlands</h3>
+          <span class="date">Nov – Dec 2024</span>
+        </div>
+        <p>Conducted literature review and analysis on early-life stress biomarkers and their impact on infant neurodevelopment.</p>
+      </div>
+
+      <div class="entry">
+        <div class="entry-header">
+          <h3>Lab Rotation – Sleep & Memory Lab (Martin Dresler), Donders Institute, Netherlands</h3>
+          <span class="date">Oct – Nov 2024</span>
+        </div>
+        <p>Assisted with qualitative analysis of dream reports and audio data as part of a project on dream incorporation and memory consolidation.</p>
+      </div>
+
+      <div class="entry">
+        <div class="entry-header">
+          <h3>Research Internship – Semantic Memory Lab (Lisa Genzel), Donders Institute, Netherlands</h3>
+          <span class="date">Feb – Jul 2024</span>
+        </div>
+        <p>Studied memory consolidation and sleep in a rodent model using EEG/EMG scoring and cognitive tasks.</p>
+      </div>
+
+      <div class="entry">
+        <div class="entry-header">
+          <h3>Volunteer Research Assistant – Neurophysiology & Behavior Lab (Kyriaki Sidiropoulou), University of Crete, Greece</h3>
+          <span class="date">Sep – Dec 2023</span>
+        </div>
+        <p>Investigated behavioral, cognitive, histological and electrophysiological alterations in a rodent model of schizophrenia.</p>
+      </div>
+
+      <div class="entry">
+        <div class="entry-header">
+          <h3>BSc Research Internship & Thesis – Neurophysiology & Behavior Lab (Kyriaki Sidiropoulou), University of Crete, Greece</h3>
+          <span class="date">Jul 2022 – Sep 2023</span>
+        </div>
+        <p>Examined neuronal activation and adaptations in the MAM mouse model of schizophrenia following a delayed non-match to sample alternation task.</p>
+      </div>
+    </section>
+
+    <section id="teaching" class="section">
+      <h2>Teaching & Outreach Experience</h2>
+
+      <div class="entry">
+        <div class="entry-header">
+          <h3>Internal PR Manager – Synapsium Committee (Dondrite), Radboud University & Donders Institute, Netherlands</h3>
+          <span class="date">Sept 2025 – now</span>
+        </div>
+        <p>Responsible for promotion and supporting organization of an annually organized neuroscience symposium.</p>
+      </div>
+
+      <div class="entry">
+        <div class="entry-header">
+          <h3>Teaching Internship – 2nd General High School, Heraklion, Greece</h3>
+          <span class="date">Oct – Dec 2023</span>
+        </div>
+        <p>Received training and performed course design, teaching practice and lesson delivery.</p>
+      </div>
+
+      <div class="entry">
+        <div class="entry-header">
+          <h3>Volunteer Laboratory Supervisor & Teacher – Neurophysiology & Behavior Lab (Kyriaki Sidiropoulou), University of Crete, Greece</h3>
+          <span class="date">Oct 2022 – Dec 2023</span>
+        </div>
+        <p>Supervising and teaching laboratory techniques to undergraduate students.</p>
+      </div>
+
+      <div class="entry">
+        <div class="entry-header">
+          <h3>Volunteer Assistant – Scientific outreach events for general public</h3>
+          <span class="date">2022 – 2024</span>
+        </div>
+      </div>
+
+      <div class="entry">
+        <div class="entry-header">
+          <h3>Volunteer Teacher – SOS Children’s Villages, Greece</h3>
+          <span class="date">Oct 2019 – Mar 2020</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="posters" class="section">
+      <h2>Conferences & Posters</h2>
+      <ul class="bullets">
+        <li><strong>Awarded Poster, European Brain and Behavior Symposium (2023):</strong> Early postnatal developmental alterations of excitation-inhibition ratio in the medial prefrontal cortex could contribute to working memory deficits in adulthood in the MAM model of schizophrenia.</li>
+        <li><strong>Poster, European Brain and Behavior Symposium (2023):</strong> Adaptations in prefrontal cortical and hippocampal function in adolescent MAM mice.</li>
+      </ul>
+    </section>
+
+    <section id="skills" class="section">
+      <h2>Technical Skills</h2>
+
+      <div class="grid-2">
+        <div class="card">
+          <h3>Neurophysiology</h3>
+          <p>EEG/EMG sleep scoring, rodent behavioral and cognitive tasks, in vitro electrophysiology, stereotaxic surgeries, tetrode drive building</p>
+        </div>
+
+        <div class="card">
+          <h3>Histology & Molecular</h3>
+          <p>Brain tissue staining, optical & fluorescent microscopy, genotyping, RNA extraction, western blotting</p>
+        </div>
+
+        <div class="card">
+          <h3>Programming & Data analysis</h3>
+          <p>Matlab, Python & R, GWAS, qualitative analysis of dream reports, ImageJ/Fiji</p>
+        </div>
+
+        <div class="card">
+          <h3>General tools & Research</h3>
+          <p>Microsoft Office (data recording, analysis, visualization and presentation)</p>
+          <p class="meta">Experimental design, protocol optimization, scientific writing, literature review, clinical research</p>
+        </div>
+      </div>
+
+      <h3 class="subhead">Interpersonal Skills</h3>
+      <ul class="bullets">
+        <li>Leadership and supervision</li>
+        <li>Teamwork and collaboration</li>
+        <li>Critical and analytical thinking</li>
+        <li>Project and time management</li>
+        <li>Initiative and proactivity</li>
+        <li>Resilience and adaptability</li>
+        <li>Public speaking and presentation</li>
+      </ul>
+    </section>
+
+    <section id="awards" class="section">
+      <h2>Certificates, Honors & Awards</h2>
+      <ul class="bullets">
+        <li>Basic Course on Regulations and Organisation for clinical investigators (eBROK) – Good Clinical Practice (2025)</li>
+        <li>Art. 9 of the Experiments on Animals Act / FELASA, Radboud University, Netherlands (2025)</li>
+        <li>Pedagogical and Teaching Competence Certificate, University of Crete, Greece (2024)</li>
+        <li>LAS Core Modules Course Webinar, BSRC Alexander Fleming, Greece (2022)</li>
+        <li>Academic Excellence and Best Student Awards, Ministry of Education and Religious Affairs, Greece (2013–2018)</li>
+      </ul>
+    </section>
+
+    <section id="languages" class="section">
+      <h2>Languages</h2>
+      <ul class="bullets">
+        <li>Greek (Native)</li>
+        <li>English (C2, ECPE & IELTS)</li>
+        <li>German (B2, Goethe)</li>
+        <li>Dutch (B1, in progress)</li>
+      </ul>
+    </section>
+
+    <section id="hobbies" class="section">
+      <h2>Hobbies & Interests</h2>
+      <ul class="bullets">
+        <li>Reading psychology books</li>
+        <li>Travelling</li>
+        <li>Learning foreign languages</li>
+        <li>Yoga</li>
+        <li>Baking</li>
+        <li>Journalism (Student Awards)</li>
+        <li>Arts and dancing (Ballet Advanced I Certificate, Royal Academy of Dance)</li>
+      </ul>
+    </section>
+
+    <section id="references upon request" class="section">
+      <h2>References</h2>
+
+    <p class="footer-note">
+      Based on my CV (content preserved with minor formatting polish). 
+    </p>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Niki Tyraki</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
