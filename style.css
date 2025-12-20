@@ -209,26 +209,21 @@ a:hover { text-decoration: underline; }
 
 /* --- FORCE Research Experience layout --- */
 #research .entry-header{
-  display: flex !important;
-  justify-content: space-between !important;
+  display: grid !important;
+  grid-template-columns: 1fr auto !important; /* role left, date right */
+  column-gap: 1rem !important;
   align-items: baseline !important;
-  gap: 1rem !important;
 }
 
 #research .entry-header h3{
   margin: 0 !important;
+  min-width: 0 !important; /* allows wrapping instead of pushing date down */
 }
 
 #research .date{
+  justify-self: end !important;
+  text-align: right !important;
   color: var(--muted) !important;
   font-size: 0.95rem !important;
   white-space: nowrap !important;
-}
-
-#research .place{
-  display: block !important;
-  margin: 0.2rem 0 0.6rem 0 !important;
-  font-style: italic !important;
-  color: var(--muted) !important;
-  font-size: 0.95rem !important;
 }
