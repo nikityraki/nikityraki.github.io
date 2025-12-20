@@ -183,3 +183,14 @@ a:hover { text-decoration: underline; }
     grid-template-columns: 1fr;
   }
 }
+
+.cloud-list{
+  margin: 0.35rem 0 0 1.1rem;  /* slight indent */
+  padding: 0;
+}
+
+.cloud-list li{
+  margin: 0.25rem 0;
+  color: var(--text);
+  font-size: 0.95rem;
+}
